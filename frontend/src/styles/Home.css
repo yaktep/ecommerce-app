@@ -1,0 +1,49 @@
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .action-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .featured-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+    margin-top: 20px;
+  }
+  
